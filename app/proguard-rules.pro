@@ -1,0 +1,7 @@
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.webkit.WebChromeClient
+-keep public class * extends android.webkit.WebViewClient
+-dontwarn
+-optimizationpasses 5
+-allowaccessmodification
